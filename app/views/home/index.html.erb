@@ -1,0 +1,12 @@
+<h1>Curso de Ruby on Rails</h1>
+<p>Find me in app/views/home/index.html.erb</p>
+
+<% @posts.each do  |post|%>
+
+    <% if post.description? %>
+
+        <h1> <%= post.title %> </h1>
+        
+    <% end %>
+
+<% end %>
